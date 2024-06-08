@@ -13,12 +13,10 @@ def multiply(x, y):
 
 
 def divide(x, y):
-    if y == 0:
-        raise ValueError("Division by zero is not allowed")
     return x / y
 
 
-def concatenate_strings(str1, str2):
+def concatenate_strings(str1, str2) -> str:
     return str1 + " " + str2
 
 
